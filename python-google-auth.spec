@@ -3,7 +3,7 @@
 
 Name:		python-google-auth
 Version:	2.48.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/g/%{module}/%{oname}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	Google Authentication Library
 URL:		https://pypi.org/project/google-auth/
@@ -13,7 +13,6 @@ BuildSystem:	python
 BuildArch:		noarch
 BuildRequires:	python
 BuildRequires:	python%{pyver}dist(aiohttp) >= 3.6.2
-BuildRequires:	python%{pyver}dist(cachetools) >= 2.0.0
 BuildRequires:	python%{pyver}dist(cryptography) >= 38.0.3
 BuildRequires:	python%{pyver}dist(packaging)
 BuildRequires:	python%{pyver}dist(pip)
@@ -25,7 +24,6 @@ BuildRequires:	python%{pyver}dist(rsa) >= 3.1.4
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(urllib3)
 BuildRequires:	python%{pyver}dist(wheel)
-Requires:		python%{pyver}dist(cachetools) >= 2.0.0
 Requires:		python%{pyver}dist(pyasn1-modules) >= 0.2.1
 Requires:		python%{pyver}dist(rsa) >= 3.1.4
 Requires:		python%{pyver}dist(urllib3)
