@@ -2,11 +2,12 @@
 %define oname google_auth
 
 Name:		python-google-auth
-Version:	2.48.0
-Release:	2
+Version:	2.49.0
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/g/%{module}/%{oname}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	Google Authentication Library
 URL:		https://pypi.org/project/google-auth/
+# Upstream moved repo to: https://github.com/googleapis/google-cloud-python/
 License:	Apache-2.0
 Group:		Development/Python
 BuildSystem:	python
@@ -38,8 +39,7 @@ This library simplifies using Google’s various
 server-to-server authentication mechanisms to
 access Google APIs.
 
-%prep
-%autosetup -n %{oname}-%{version} -p1
+%prep -a
 # Remove bundled egg-info
 rm -rf %{oname}.egg-info/
 
