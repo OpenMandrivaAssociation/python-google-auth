@@ -2,7 +2,7 @@
 %define oname google_auth
 
 Name:		python-google-auth
-Version:	2.49.1
+Version:	2.49.2
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/g/%{module}/%{oname}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	Google Authentication Library
