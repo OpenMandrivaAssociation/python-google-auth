@@ -26,7 +26,6 @@ BuildRequires:	python%{pyver}dist(rsa) >= 3.1.4
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(urllib3)
 BuildRequires:	python%{pyver}dist(wheel)
-Requires:		python%{pyver}dist(pyasn1-modules) >= 0.2.1
 Requires:		python%{pyver}dist(rsa) >= 3.1.4
 Requires:		python%{pyver}dist(urllib3)
 Recommends:		python%{pyver}dist(pyjwt) >= 2.0
