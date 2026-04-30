@@ -2,14 +2,15 @@
 %define oname google_auth
 
 Name:		python-google-auth
-Version:	2.49.2
-Release:	1
-Source0:	https://files.pythonhosted.org/packages/source/g/%{module}/%{oname}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	Google Authentication Library
-URL:		https://pypi.org/project/google-auth/
-# Upstream moved repo to: https://github.com/googleapis/google-cloud-python/
+Version:	2.50.0
+Release:	1
 License:	Apache-2.0
 Group:		Development/Python
+# Upstream URL - https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
+URL:		https://pypi.org/project/google-auth/
+Source0:	https://files.pythonhosted.org/packages/source/g/%{module}/%{oname}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
+
 BuildSystem:	python
 BuildArch:		noarch
 BuildRequires:	python
