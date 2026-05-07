@@ -3,7 +3,7 @@
 
 Name:		python-google-auth
 Summary:	Google Authentication Library
-Version:	2.51.0
+Version:	2.52.0
 Release:	1
 License:	Apache-2.0
 Group:		Development/Python
