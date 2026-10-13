@@ -3,7 +3,7 @@
 
 Name:		python-google-auth
 Summary:	Google Authentication Library
-Version:	2.56.2
+Version:	2.62.0
 Release:	1
 License:	Apache-2.0
 Group:		Development/Python
@@ -15,7 +15,7 @@ BuildSystem:	python
 BuildArch:		noarch
 BuildRequires:	python
 BuildRequires:	python%{pyver}dist(aiohttp) >= 3.6.2
-BuildRequires:	python%{pyver}dist(cryptography) >= 38.0.3
+BuildRequires:	python%{pyver}dist(cryptography) >= 41.0.5
 BuildRequires:	python%{pyver}dist(packaging)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(pyasn1-modules) >= 0.2.1
@@ -26,11 +26,9 @@ BuildRequires:	python%{pyver}dist(rsa) >= 3.1.4
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(urllib3)
 BuildRequires:	python%{pyver}dist(wheel)
-Requires:		python%{pyver}dist(rsa) >= 3.1.4
-Requires:		python%{pyver}dist(urllib3)
 Recommends:		python%{pyver}dist(pyjwt) >= 2.0
 Recommends:		python%{pyver}dist(aiohttp) >= 3.6.2
-Recommends:		python%{pyver}dist(cryptography) >= 38.0.3
+Recommends:		python%{pyver}dist(cryptography) >= 41.0.5
 Recommends:		python%{pyver}dist(pyopenssl) >= 20.0.0
 Recommends:		python%{pyver}dist(requests) >= 2.20.0
 
